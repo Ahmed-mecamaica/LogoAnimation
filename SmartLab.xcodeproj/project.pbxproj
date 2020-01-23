@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		296D27D52396E91300202538 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D27D32396E91300202538 /* CollectionViewCell.swift */; };
+		296D27D62396E91300202538 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296D27D42396E91300202538 /* CollectionViewCell.xib */; };
+		2990C873239D2E9D00ECD386 /* TblVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990C871239D2E9D00ECD386 /* TblVC.swift */; };
+		2990C874239D2E9D00ECD386 /* TblVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2990C872239D2E9D00ECD386 /* TblVC.xib */; };
+		2990C878239EAA7900ECD386 /* CollectonViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990C876239EAA7900ECD386 /* CollectonViewTableViewCell.swift */; };
+		2990C879239EAA7900ECD386 /* CollectonViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2990C877239EAA7900ECD386 /* CollectonViewTableViewCell.xib */; };
 		29F464B123955C58004CE460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464B023955C58004CE460 /* AppDelegate.swift */; };
-		29F464B323955C58004CE460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464B223955C58004CE460 /* ViewController.swift */; };
+		29F464B323955C58004CE460 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464B223955C58004CE460 /* MainVC.swift */; };
 		29F464B623955C58004CE460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F464B423955C58004CE460 /* Main.storyboard */; };
 		29F464B823955C5A004CE460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F464B723955C5A004CE460 /* Assets.xcassets */; };
 		29F464BB23955C5A004CE460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F464B923955C5A004CE460 /* LaunchScreen.storyboard */; };
+		29F464C82395A497004CE460 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464C62395A497004CE460 /* EventTableViewCell.swift */; };
+		29F464C92395A497004CE460 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F464C72395A497004CE460 /* EventTableViewCell.xib */; };
+		29F464CD2395A970004CE460 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464CC2395A970004CE460 /* API.swift */; };
+		29F464D02395AF27004CE460 /* ExtentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F464CF2395AF27004CE460 /* ExtentionViewController.swift */; };
+		FA11C0128319EFAE747578E3 /* Pods_SmartLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0DF8A5EC32D3C0FC289263 /* Pods_SmartLab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		138A0693ABA3097F5787B61F /* Pods-SmartLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLab.debug.xcconfig"; path = "Target Support Files/Pods-SmartLab/Pods-SmartLab.debug.xcconfig"; sourceTree = "<group>"; };
+		296D27D32396E91300202538 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		296D27D42396E91300202538 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		2990C871239D2E9D00ECD386 /* TblVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblVC.swift; sourceTree = "<group>"; };
+		2990C872239D2E9D00ECD386 /* TblVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TblVC.xib; sourceTree = "<group>"; };
+		2990C876239EAA7900ECD386 /* CollectonViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectonViewTableViewCell.swift; sourceTree = "<group>"; };
+		2990C877239EAA7900ECD386 /* CollectonViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectonViewTableViewCell.xib; sourceTree = "<group>"; };
 		29F464AD23955C58004CE460 /* SmartLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F464B023955C58004CE460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29F464B223955C58004CE460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29F464B223955C58004CE460 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		29F464B523955C58004CE460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29F464B723955C5A004CE460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F464BA23955C5A004CE460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F464BC23955C5A004CE460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F464C62395A497004CE460 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		29F464C72395A497004CE460 /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		29F464CC2395A970004CE460 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		29F464CF2395AF27004CE460 /* ExtentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionViewController.swift; sourceTree = "<group>"; };
+		B70932B2ECC59333D66916DE /* Pods-SmartLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartLab.release.xcconfig"; path = "Target Support Files/Pods-SmartLab/Pods-SmartLab.release.xcconfig"; sourceTree = "<group>"; };
+		EF0DF8A5EC32D3C0FC289263 /* Pods_SmartLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA11C0128319EFAE747578E3 /* Pods_SmartLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				29F464AF23955C58004CE460 /* SmartLab */,
 				29F464AE23955C58004CE460 /* Products */,
+				A840DD1FC7A9EC1B6A77A9E5 /* Pods */,
+				70018FD0DF13FB74392457B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,49 @@
 		29F464AF23955C58004CE460 /* SmartLab */ = {
 			isa = PBXGroup;
 			children = (
+				29F464CE2395AEC6004CE460 /* Extentions */,
 				29F464B023955C58004CE460 /* AppDelegate.swift */,
-				29F464B223955C58004CE460 /* ViewController.swift */,
+				29F464B223955C58004CE460 /* MainVC.swift */,
 				29F464B423955C58004CE460 /* Main.storyboard */,
 				29F464B723955C5A004CE460 /* Assets.xcassets */,
 				29F464B923955C5A004CE460 /* LaunchScreen.storyboard */,
 				29F464BC23955C5A004CE460 /* Info.plist */,
+				29F464CC2395A970004CE460 /* API.swift */,
+				2990C871239D2E9D00ECD386 /* TblVC.swift */,
+				2990C872239D2E9D00ECD386 /* TblVC.xib */,
+				296D27D32396E91300202538 /* CollectionViewCell.swift */,
+				296D27D42396E91300202538 /* CollectionViewCell.xib */,
+				29F464C62395A497004CE460 /* EventTableViewCell.swift */,
+				29F464C72395A497004CE460 /* EventTableViewCell.xib */,
+				2990C876239EAA7900ECD386 /* CollectonViewTableViewCell.swift */,
+				2990C877239EAA7900ECD386 /* CollectonViewTableViewCell.xib */,
 			);
 			path = SmartLab;
+			sourceTree = "<group>";
+		};
+		29F464CE2395AEC6004CE460 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				29F464CF2395AF27004CE460 /* ExtentionViewController.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		70018FD0DF13FB74392457B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0DF8A5EC32D3C0FC289263 /* Pods_SmartLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A840DD1FC7A9EC1B6A77A9E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138A0693ABA3097F5787B61F /* Pods-SmartLab.debug.xcconfig */,
+				B70932B2ECC59333D66916DE /* Pods-SmartLab.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29F464BF23955C5A004CE460 /* Build configuration list for PBXNativeTarget "SmartLab" */;
 			buildPhases = (
+				8BB955C5FFA2DC19911C97E2 /* [CP] Check Pods Manifest.lock */,
 				29F464A923955C58004CE460 /* Sources */,
 				29F464AA23955C58004CE460 /* Frameworks */,
 				29F464AB23955C58004CE460 /* Resources */,
+				8A12EB1FCE76F8FC1D325D5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +186,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F464C92395A497004CE460 /* EventTableViewCell.xib in Resources */,
 				29F464BB23955C5A004CE460 /* LaunchScreen.storyboard in Resources */,
+				2990C879239EAA7900ECD386 /* CollectonViewTableViewCell.xib in Resources */,
 				29F464B823955C5A004CE460 /* Assets.xcassets in Resources */,
+				2990C874239D2E9D00ECD386 /* TblVC.xib in Resources */,
 				29F464B623955C58004CE460 /* Main.storyboard in Resources */,
+				296D27D62396E91300202538 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A12EB1FCE76F8FC1D325D5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLab/Pods-SmartLab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartLab/Pods-SmartLab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartLab/Pods-SmartLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB955C5FFA2DC19911C97E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29F464A923955C58004CE460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F464B323955C58004CE460 /* ViewController.swift in Sources */,
+				2990C878239EAA7900ECD386 /* CollectonViewTableViewCell.swift in Sources */,
+				29F464C82395A497004CE460 /* EventTableViewCell.swift in Sources */,
+				29F464D02395AF27004CE460 /* ExtentionViewController.swift in Sources */,
+				2990C873239D2E9D00ECD386 /* TblVC.swift in Sources */,
+				296D27D52396E91300202538 /* CollectionViewCell.swift in Sources */,
+				29F464B323955C58004CE460 /* MainVC.swift in Sources */,
+				29F464CD2395A970004CE460 /* API.swift in Sources */,
 				29F464B123955C58004CE460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +396,7 @@
 		};
 		29F464C023955C5A004CE460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138A0693ABA3097F5787B61F /* Pods-SmartLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +415,7 @@
 		};
 		29F464C123955C5A004CE460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70932B2ECC59333D66916DE /* Pods-SmartLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

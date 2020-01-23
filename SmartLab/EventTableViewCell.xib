@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="KGk-i7-Jjw" customClass="EventTableViewCell" customModule="SmartLab" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="118.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Repeat Grid 3" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-JC-SaE">
+                        <rect key="frame" x="2" y="3" width="80" height="108"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brX-tx-Gs4">
+                        <rect key="frame" x="112" y="22" width="49.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.69019607839999997" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsL-Yv-zja">
+                        <rect key="frame" x="21" y="47" width="43" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLV-V5-Fp4">
+                        <rect key="frame" x="112" y="47" width="51.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QsL-Yv-zja" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="47" id="Aj6-sh-Tsy"/>
+                    <constraint firstItem="QsL-Yv-zja" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="H9r-1u-qnq"/>
+                    <constraint firstAttribute="bottom" secondItem="ctm-JC-SaE" secondAttribute="bottom" constant="7.5" id="LCy-wr-Gkf"/>
+                    <constraint firstItem="QLV-V5-Fp4" firstAttribute="top" secondItem="brX-tx-Gs4" secondAttribute="bottom" constant="4" id="OTv-2E-gwk"/>
+                    <constraint firstItem="ctm-JC-SaE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="PKo-Mb-5eG"/>
+                    <constraint firstItem="QLV-V5-Fp4" firstAttribute="leading" secondItem="ctm-JC-SaE" secondAttribute="trailing" constant="30" id="aE4-aX-EHF"/>
+                    <constraint firstAttribute="bottom" secondItem="QsL-Yv-zja" secondAttribute="bottom" constant="50.5" id="bPP-qm-YeK"/>
+                    <constraint firstItem="brX-tx-Gs4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="iQS-im-SCj"/>
+                    <constraint firstItem="ctm-JC-SaE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="oqu-dH-mAf"/>
+                    <constraint firstItem="QLV-V5-Fp4" firstAttribute="leading" secondItem="QsL-Yv-zja" secondAttribute="trailing" constant="48" id="q0h-Un-nce"/>
+                    <constraint firstItem="brX-tx-Gs4" firstAttribute="leading" secondItem="ctm-JC-SaE" secondAttribute="trailing" constant="30" id="r2I-s1-Sfo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="precautionLbl" destination="QLV-V5-Fp4" id="KhX-Ug-0NV"/>
+                <outlet property="priceLbl" destination="QsL-Yv-zja" id="n7J-vh-9m3"/>
+                <outlet property="titleLbl" destination="brX-tx-Gs4" id="KSQ-Ge-OXJ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="153.01339285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Repeat Grid 3" width="80" height="80"/>
+    </resources>
+</document>
